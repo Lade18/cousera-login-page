@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 75px;
+    box-shadow: 1px 1px 1px black;
+    background-color: white;
+    
+    }
+    nav .item ul{
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        list-style: none;
+        font-size: small;
+    
+    }
+    nav .container{
+        display: flex ;
+        margin: 0px, 10px;
+    }
+    nav .Explore{
+         margin-left:40px ;
+        padding-left:25px ;  
+        padding-right: 25px;   
+        color: white;
+        background-color:#0056d2;
+        background-color:;
+         text-align: center;
+         padding-top:5px;
+         padding-bottom: 5px;
+         border-radius: 6px;
+         border: none;
+         
+    }
+    h2{
+        margin-left: 40px;
+        color:#0056d2;
+        font-size:xx-large;
+        font-weight: 200px;
+    }
+    nav input[type=text] {
+    width: 400px;
+    height: 30px;
+    border-radius: 3px;
+    }
+    nav form .fa-search{
+        background-color:#0056d2;
+        color: white;
+        width: 30px;
+        text-align: center;
+        padding: 7px;
+    }
+    nav ul li{
+        margin: 10px;
+        margin-left: 10px;
+    
+    }
+    nav .join{
+        margin-left:30px ;
+        padding-left:25px ;  
+        padding-right: 25px;
+        color: white;
+        background-color:#0056d2;
+        text-align: center;
+        padding-top:10px;
+        padding-bottom: 10px;
+        border-radius: 6px;
+        border: none;
+    }
+    
+    nav ul a{
+    text-decoration: none;
+    color: black;
+    }
+    body{
+        background-color: #EBF3FF;
+    }
+    nav .item{
+        display: flex;
+        list-style: none;
+    }
+    nav .login a{
+    margin-bottom: 20px;
+    }
+    .containerr{
+    width: 450px;
+    padding: 28px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px  8px grey;
+    }
+    h3{
+        color: black;
+        font-size: 28px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .email{
+    width: 355px;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    margin-left: 15px
+    }
+    .password{
+        width: 355px;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        margin-left: 15px;
+    }
+    .Name{
+        width: 355px;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        margin-left: 15px;
+    }
+    .full-name{
+        margin-left: 10px;
+        font-size: medium;
+        margin-bottom: 40px;
+    }
+    .join-for-free{
+        width: 355px;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    color: white;
+    background-color: #0056d2;
+    border: none;
+    border-radius: 5px;
+    }
+    h4{
+        margin-bottom: 20px;
+        text-align: center;
+font-size: smaller;
+    }
+    .google{
+        width: 355px;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        margin-left: 15px;
+        border-radius: 5px;
+    
+    }
+    .facebook{
+        width: 355px;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        margin-left: 15px;
+        border-radius: 5px;
+    
+    }
+    .apple{
+        width: 355px;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        margin-left: 15px;
+        border-radius: 5px;
+    
+    }
+    h5{
+        text-align: center;
+        }
+    .organization{
+        margin-left: 90px;
+        text-decoration: none;
+    }
+    .label{
+        margin-left: 13px;
+        font-size: smaller;
+    }
+    p{
+        text-align: center;
+        color: black;
+        text-decoration: none;
+    }
+    .trouble{
+        margin-left: 20px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin-top: 60px;
+        box-shadow: 2px 2px 5px black;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    }
+    .app {
+    width: 150px;
+    height:auto;
+    
+    }
+    .googgle{
+        width: 150px;
+        height:auto;
+    
+    }
+    .certified{
+        width: 90px;
+    height:auto;
+    }
+    .black{
+        color: black;
+        font-size: small;
+        text-decoration: none;
+    
+    }
+    .mobile{
+        margin-right: 300px;
+        list-style: none;
+    }
+    footer .courses ul{
+        list-style: none;
+    }
+    footer .mobile ul{
+        list-style: none;
+    }
+    .Sign{
+        font-size: larger;
+    }
+    .P1{
+        margin-bottom: 10px;
+    }
